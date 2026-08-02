@@ -66,7 +66,7 @@ sudo pacman -S openssl base-devel
 
 ```bash
 git clone https://github.com/Venu-exe/Beast.git
-cd recon
+cd Beast
 make
 ```
 
@@ -77,6 +77,22 @@ That's it. Single binary at `bin/recon`, no pip, no npm, no cargo.
 ```bash
 ./bin/recon --version
 # recon v3.0
+```
+
+##Optional but recommanded
+
+```
+mkdir -p ~/.local/bin
+cp ./bin/recon ~/.local/bin/<what name you want>
+
+then execute that i have arch i use this
+
+set -Ux fish_user_paths $fish_user_paths ~/.local/bin/<what name you want >
+
+then exe
+
+exec fish 
+
 ```
 
 ## Usage
