@@ -65,7 +65,7 @@ sudo pacman -S openssl base-devel
 ### Build
 
 ```bash
-git clone https://github.com/Venu-exe/recon.git
+git clone https://github.com/Venu-exe/Beast.git
 cd recon
 make
 ```
