@@ -79,7 +79,7 @@ That's it. Single binary at `bin/recon`, no pip, no npm, no cargo.
 # recon v3.0
 ```
 
-##Optional but recommanded
+## Optional but recommanded
 
 ```
 mkdir -p ~/.local/bin
