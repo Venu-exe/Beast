@@ -1,4 +1,4 @@
-![C](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Platform](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-2.0-blue?style=for-the-badge) ![Bug Bounty Tool](https://img.shields.io/badge/Bug%20Bounty-Tool-red?style=for-the-badge&logo=hackthebox&logoColor=white)
+![C](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Platform](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-3.0-blue?style=for-the-badge) ![Bug Bounty Tool](https://img.shields.io/badge/Bug%20Bounty-Tool-red?style=for-the-badge&logo=hackthebox&logoColor=white)
 
 # RECON
 
@@ -14,7 +14,7 @@
 | |_) ||  _|| |  | | | |  \| |
 |  _ < | |__| |__| |_| | |\  |
 |_| \_\|_____\____\___/|_| \_|
-  DNS + ports + subdomains + TLS + paths   v2.0
+  DNS + ports + subdomains + TLS + paths   v3.0
 ```
 
 ## Why recon?
@@ -76,7 +76,7 @@ That's it. Single binary at `bin/recon`, no pip, no npm, no cargo.
 
 ```bash
 ./bin/recon --version
-# recon v2.0
+# recon v3.0
 ```
 
 ## Usage

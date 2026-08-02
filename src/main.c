@@ -1,8 +1,12 @@
 /*
- * recon v2.0 - Lightweight multi-threaded recon tool for authorized
+ * recon v3.0 - Lightweight multi-threaded recon tool for authorized
  *              security testing / bug bounty engagements.
  *
- * New in v2.0:
+ * New in v3.0:
+ *   - Security header audit, graded A-F (HSTS/CSP/XFO/etc.)          --headers
+ *   - CSV report output for spreadsheet-friendly findings             -c
+ *
+ * Carried over from v2.0:
  *   - TLS certificate inspection (subject/issuer/SANs/expiry)         --tls
  *   - Threaded subdomain enum with CNAME + takeover-candidate flags   -w
  *   - HTTP common-path / content discovery                            -x

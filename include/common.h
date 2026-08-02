@@ -20,7 +20,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-#define RECON_VERSION   "2.0"
+#define RECON_VERSION   "3.0"
 
 #define MAX_BANNER      2048
 #define MAX_HOSTLEN     256
